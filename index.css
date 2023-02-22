@@ -18,6 +18,7 @@ header {
     float: left;
     height: 125px;
     width: 20%;
+    padding-left: 50px;
 }
 
 .breadcrumb {
@@ -65,7 +66,7 @@ header {
 
 .headings {
     position: relative;
-    padding-left: 100px;
+    padding-left: 75px;
     padding-top: 25px;
 }
 
@@ -91,10 +92,123 @@ footer {
     margin-right: 50px;
 }
 
+.dropdownContent p {
+    font-size: 1rem;
+}
+
 .dropdownContent li {
     line-height: 1.5;
 }
 
 .dropdownContent.skills {
     float: center;
+}
+
+@media only screen and (min-width: 686px) and (max-width: 842px) {
+    .breadcrumb li {
+        font-size: 1rem;
+        padding: 25px;
+    }
+    .introduction {
+        font-size: 1rem;
+    }
+
+    .introductionImportant {
+        font-size: 1.25rem;
+    }
+
+    #about, #projects, #skills, #contact {
+        font-size: 1rem;
+    }
+
+    .dropdownContent img{
+        height: 75px;
+        width: 75px;
+    }
+
+    .dropdownContent p {
+        font-size: 0.75rem;
+    }
+
+    .dropdownContent li {
+        font-size: 0.75rem;
+    }
+}
+
+@media only screen and (min-width: 608px) and (max-width: 686px) {
+    .breadcrumb li {
+        font-size: 0.75rem;
+    }
+    .logo img {
+        height: 100px;
+    }
+    .introduction {
+        font-size: 0.8rem;
+    }
+
+    .introductionImportant{
+        font-size: 1rem;
+    }
+
+    #about, #projects, #skills, #contact {
+        font-size: 0.8rem;
+    }
+
+    .dropdownContent img{
+        height: 60px;
+        width: 60px;
+    }
+
+    .dropdownContent p {
+        font-size: 0.65rem;
+    }
+
+    .dropdownContent li {
+        font-size: 0.65rem;
+    }
+}
+
+@media only screen and (max-width: 608px) {
+    .breadcrumb li {
+        font-size: 0.5rem;
+        padding: 20px;
+    }
+    .logo img {
+        height: 75px;
+    }
+
+    .introduction {
+        font-size: 0.6rem;
+    }
+
+    .introductionImportant{
+        font-size: 0.8rem;
+    }
+
+    #about, #projects, #skills, #contact {
+        font-size: 0.6rem;
+    }
+
+    .dropdownContent img{
+        height: 50px;
+        width: 50px;
+    }
+
+    .dropdownContent p {
+        font-size: 0.5rem;
+    }
+
+    .dropdownContent li {
+        font-size: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .breadcrumb li {
+        font-size: 0.5rem;
+        padding: 10px;
+    }
+    .logo img {
+        height: 50px;
+    }
 }
