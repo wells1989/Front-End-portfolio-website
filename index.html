@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    
+</head>
+
+<header>
+
+    <div class="logo">
+        <img src="./images/logo.avif" alt="My logo">
+    </div>
+    <ul class = "breadcrumb">
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About me</a></li>
+      </ul>
+      
+    </header>
+
+<body>
+
+    <div class="introduction">
+        <p>Hi, my name is</p>
+        <p id="introductionImportant">Paul Wells</p> 
+        <p>I'm learning to code at</p> 
+        <p><a href="https://www.codecademy.com/">Codecademy</a></p>
+    </div>
+
+    <div class="headings">
+        <h2 class="indHeadings" id="about" onclick="toggle()">About me</h2>
+        <div class="dropdownContent" id="myDIV" style="display:none;">
+            <img src="./images/2021-04-22 - Paul.jpg" alt="my photo" width="200" height="200">
+            <p>I started becoming interested in coding during the pandemic, and finally decided to take a coding course this January. I am fairly new to web design but I'm a fast learner, and so I'll be looking to complete the course by June and start looking for work during the Summer / Autumn</p>
+        </div>
+
+           
+        <h2 class="indHeadings" id="projects" onclick="toggle2()">Projects</h2>
+        <div class="dropdownContent" id="myDIV2" style="display:none;">
+            <ul>
+                <li>Personal portfolio website (this site!)</li>
+                <li><a href="https://github.com/wells1989/running-club-website-challenge-project-31-01-23">Running club challenge project</a></li>
+                <li><a href="https://github.com/wells1989/LEA-Website-30-01-23">Estate Agents Website</a></li>
+                <li><a href="https://github.com/wells1989/Practice-Project-Random-message-generator">Javascript Random Message Generator</a></li>
+            </ul>
+        </div> 
+
+        <h2 class="indHeadings" id="skills" onclick="toggle3()">Skills</h2>
+        <div class="dropdownContent" class="skills" id="myDIV3" style="display:none;">
+            <img src="./images/HTML5_logo_and_wordmark.svg.png" alt="HTML" width="125" height="125">
+            <img src="./images/css logo.avif" alt="CSS" width="125" height="125">
+            <img src="./images/JavaScript-Logo.png" alt="JavaScript" width="125" height="125">
+            <img src="./images/Python-logo-notext.svg.png" alt="Python" width="125" height="125">   
+
+        </div> 
+
+        <h2 class="indHeadings" id="contact" onclick="toggle4()">Contact</h2>
+            <div class="dropdownContent" id="myDIV4" style="display:none;">
+                <ol>
+                    <li>Email: wellsy95@hotmail.com</li>
+                    <li>Alternative Email: wellspaul554@gmail.com</li>
+                    <li><a href="https://github.com/wells1989">GitHub</a></li>
+                </ol>
+            </div>   
+
+    <script src="./index.js"></script>
+</body>
+
+<footer>
+    <h3>Designed and built by Paul Wells, 2023</h3>
+
+</footer>
+</html>

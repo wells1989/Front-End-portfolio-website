@@ -1,0 +1,100 @@
+html {
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    height: 125px;
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+
+.logo img {
+    float: left;
+    height: 125px;
+    width: 20%;
+}
+
+.breadcrumb {
+    width: 90%;
+    justify-content: space-around;
+    line-height: 1.5;
+}
+
+.breadcrumb li {
+    font-size: 1.5rem;
+    display: inline;
+    padding: 30px;
+    vertical-align:middle;
+    float: right;
+    font-weight: 800;
+    color: #400080;
+}
+
+.indHeadings::after{
+    content: "";
+    display: inline-block;
+    width: 150px;
+    height: 2px;
+    background: #400080;
+    opacity: 0.5;
+    left: 25px;
+    top: 50%;
+    position: relative;
+}
+
+.introduction {
+    position: relative;
+    top: 15px;
+    width: 90%;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+#introductionImportant {
+    font-size: 1.5rem;
+    color: #7300e6;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.headings {
+    position: relative;
+    padding-left: 100px;
+    padding-top: 25px;
+}
+
+.headings h2 {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+footer {
+    width: 90%;
+    float: left;
+    font-size: 0.5rem;
+    margin-top: 50px;
+}
+
+.dropdownContent {
+    width: 90%;
+    display: inline-flex;
+}
+
+.dropdownContent img{
+    float: right;
+    margin-right: 50px;
+}
+
+.dropdownContent li {
+    line-height: 1.5;
+}
+
+.dropdownContent.skills {
+    float: center;
+}
